@@ -2,6 +2,8 @@
 
 This repository contains the implementation of an FPGA-based Chess Timer. The project aims to design and develop a chess timer using an FPGA, providing precise time management and control during chess games.
 
+https://github.com/user-attachments/assets/6561c64d-ba8e-49ad-8ce5-9c1101229af4
+
 ## Features
 
 - **Time Tracking**: Tracks and displays time for both players.
