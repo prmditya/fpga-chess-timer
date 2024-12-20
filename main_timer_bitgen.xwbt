@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/FPGA/timer_catur/main_timer.ncd
+OUTFILE=/home/ise/FPGA/timer_catur/main_timer.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/home/ise/FPGA/timer_catur
+LICENSE=WebPack
+USER_INFO=212811725_0_0_773

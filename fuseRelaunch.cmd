@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Documents/timer_catur/test_isim_beh.exe" -prj "/home/ise/Documents/timer_catur/test_beh.prj" "work.test" 

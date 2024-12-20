@@ -1,0 +1,2 @@
+vhdl work "main_timer.vhd"
+vhdl work "test.vhd"

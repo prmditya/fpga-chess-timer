@@ -1,0 +1,224 @@
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+netgen -intstyle ise -s 4  -pcf main_timer.pcf -rpw 100 -tpw 0 -ar Structure -tm main_timer -w -dir netgen/map -ofmt vhdl -sim main_timer_map.ncd main_timer_map.vhd 
+xst -intstyle ise -ifn "/home/ise/Documents/timer_catur/main_timer.xst" -ofn "/home/ise/Documents/timer_catur/main_timer.syr" 
+xst -intstyle ise -ifn "/home/ise/FPGA/timer_catur/main_timer.xst" -ofn "/home/ise/FPGA/timer_catur/main_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_timer.ucf -p xc3s500e-fg320-4 main_timer.ngc main_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_timer_map.ncd main_timer.ngd main_timer.pcf 
+par -w -intstyle ise -ol high -t 1 main_timer_map.ncd main_timer.ncd main_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main_timer.twx main_timer.ncd -o main_timer.twr main_timer.pcf -ucf main_timer.ucf 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 
+bitgen -intstyle ise -f main_timer.ut main_timer.ncd 

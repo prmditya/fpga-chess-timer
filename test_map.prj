@@ -1,0 +1,2 @@
+vhdl work "netgen/map/main_timer_map.vhd"
+vhdl work "test.vhd"

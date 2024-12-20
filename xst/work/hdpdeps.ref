@@ -1,0 +1,8 @@
+V3 4
+FL /home/ise/Documents/timer_catur/main_timer.vhd 2023/11/21.13:06:22 P.20131013
+FL /home/ise/FPGA/timer_catur/main_timer.vhd 2023/11/22.01:26:27 P.20131013
+EN work/main_timer 1700616392 FL /home/ise/FPGA/timer_catur/main_timer.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/MATH_REAL 1381692182 PB ieee/NUMERIC_STD 1381692181
+AR work/main_timer/Behavioral 1700616393 \
+      FL /home/ise/FPGA/timer_catur/main_timer.vhd EN work/main_timer 1700616392

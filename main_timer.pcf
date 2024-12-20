@@ -1,0 +1,165 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Nov 22 01:27:01 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SF_D<0>" LOCATE = SITE "R15" LEVEL 1;
+COMP "SF_D<1>" LOCATE = SITE "R16" LEVEL 1;
+COMP "SF_D<2>" LOCATE = SITE "P17" LEVEL 1;
+COMP "SF_D<3>" LOCATE = SITE "M15" LEVEL 1;
+COMP "clk" LOCATE = SITE "C9" LEVEL 1;
+COMP "LCD_E" LOCATE = SITE "M18" LEVEL 1;
+COMP "Start" LOCATE = SITE "K17" LEVEL 1;
+COMP "reset" LOCATE = SITE "V4" LEVEL 1;
+COMP "LCD_RS" LOCATE = SITE "L18" LEVEL 1;
+COMP "LCD_RW" LOCATE = SITE "L17" LEVEL 1;
+COMP "PushBlack" LOCATE = SITE "D18" LEVEL 1;
+COMP "PushWhite" LOCATE = SITE "H13" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+TIMEGRP clk = BEL "whiteIsRunning_0" BEL "SF_D0_0" BEL "SF_D0_1" BEL "SF_D0_2"
+        BEL "SF_D0_3" BEL "SF_D1_0" BEL "SF_D1_1" BEL "init_done" BEL "i_0"
+        BEL "i_1" BEL "i_2" BEL "i_3" BEL "i_4" BEL "i_5" BEL "i_6" BEL "i_7"
+        BEL "i_8" BEL "i_9" BEL "i_10" BEL "i_11" BEL "i_12" BEL "i_13" BEL
+        "i_14" BEL "i_15" BEL "i_16" BEL "i_17" BEL "i_18" BEL "i_19" BEL
+        "blackIsRunning_0" BEL "startCheck_0" BEL "LCD_E1" BEL "i2_0" BEL
+        "i2_1" BEL "i2_2" BEL "i2_3" BEL "i2_4" BEL "i2_5" BEL "i2_6" BEL
+        "i2_7" BEL "i2_8" BEL "i2_9" BEL "i2_10" BEL "i3_0" BEL "i3_1" BEL
+        "i3_2" BEL "i3_3" BEL "i3_4" BEL "i3_5" BEL "i3_6" BEL "i3_7" BEL
+        "i3_8" BEL "i3_9" BEL "i3_10" BEL "i3_11" BEL "i3_12" BEL "i3_13" BEL
+        "i3_14" BEL "i3_15" BEL "i3_16" BEL "LCD_E0" BEL "white1_min_0" BEL
+        "white1_min_1" BEL "white1_min_4" BEL "white1_min_2" BEL
+        "white1_min_3" BEL "white1_min_7" BEL "white1_min_5" BEL
+        "white1_min_6" BEL "white1_min_10" BEL "white1_min_8" BEL
+        "white1_min_9" BEL "white1_min_11" BEL "white1_min_12" BEL
+        "white1_min_15" BEL "white1_min_13" BEL "white1_min_14" BEL
+        "white1_min_18" BEL "white1_min_16" BEL "white1_min_17" BEL
+        "white1_min_21" BEL "white1_min_19" BEL "white1_min_20" BEL
+        "white1_min_22" BEL "white1_min_23" BEL "white1_min_26" BEL
+        "white1_min_24" BEL "white1_min_25" BEL "white1_min_27" BEL
+        "white1_min_28" BEL "white1_min_31" BEL "white1_min_29" BEL
+        "white1_min_30" BEL "black2_sec_0" BEL "black2_sec_3" BEL
+        "black2_sec_1" BEL "black2_sec_2" BEL "black2_sec_6" BEL
+        "black2_sec_4" BEL "black2_sec_5" BEL "black2_sec_9" BEL
+        "black2_sec_7" BEL "black2_sec_8" BEL "black2_sec_10" BEL
+        "black2_sec_11" BEL "black2_sec_14" BEL "black2_sec_12" BEL
+        "black2_sec_13" BEL "black2_sec_15" BEL "black2_sec_16" BEL
+        "black2_sec_19" BEL "black2_sec_17" BEL "black2_sec_18" BEL
+        "black2_sec_20" BEL "black2_sec_21" BEL "black2_sec_24" BEL
+        "black2_sec_22" BEL "black2_sec_23" BEL "black2_sec_27" BEL
+        "black2_sec_25" BEL "black2_sec_26" BEL "black2_sec_30" BEL
+        "black2_sec_28" BEL "black2_sec_29" BEL "black2_sec_31" BEL
+        "black1_min_2" BEL "black1_min_0" BEL "black1_min_1" BEL
+        "black1_min_3" BEL "black1_min_4" BEL "black1_min_7" BEL
+        "black1_min_5" BEL "black1_min_6" BEL "black1_min_8" BEL
+        "black1_min_9" BEL "black1_min_12" BEL "black1_min_10" BEL
+        "black1_min_11" BEL "black1_min_15" BEL "black1_min_13" BEL
+        "black1_min_14" BEL "black1_min_18" BEL "black1_min_16" BEL
+        "black1_min_17" BEL "black1_min_19" BEL "black1_min_20" BEL
+        "black1_min_23" BEL "black1_min_21" BEL "black1_min_22" BEL
+        "black1_min_26" BEL "black1_min_24" BEL "black1_min_25" BEL
+        "black1_min_29" BEL "black1_min_27" BEL "black1_min_28" BEL
+        "black1_min_30" BEL "black1_min_31" BEL "count_0" BEL "count_1" BEL
+        "count_2" BEL "count_3" BEL "count_4" BEL "count_5" BEL "count_6" BEL
+        "count_7" BEL "count_8" BEL "count_9" BEL "count_10" BEL "count_11"
+        BEL "count_12" BEL "count_13" BEL "count_14" BEL "count_15" BEL
+        "count_16" BEL "count_17" BEL "count_18" BEL "count_19" BEL "count_20"
+        BEL "count_21" BEL "count_22" BEL "count_23" BEL "count_24" BEL
+        "count_25" BEL "count_26" BEL "count_27" BEL "count_28" BEL "count_29"
+        BEL "count_30" BEL "count_31" BEL "timer_white_2" BEL "timer_white_0"
+        BEL "timer_white_1" BEL "timer_white_5" BEL "timer_white_3" BEL
+        "timer_white_4" BEL "timer_white_6" BEL "timer_white_7" BEL
+        "timer_white_10" BEL "timer_white_8" BEL "timer_white_9" BEL
+        "timer_white_11" BEL "timer_white_12" BEL "timer_white_15" BEL
+        "timer_white_13" BEL "timer_white_14" BEL "timer_white_16" BEL
+        "timer_white_17" BEL "timer_white_20" BEL "timer_white_18" BEL
+        "timer_white_19" BEL "timer_white_23" BEL "timer_white_21" BEL
+        "timer_white_22" BEL "timer_white_26" BEL "timer_white_24" BEL
+        "timer_white_25" BEL "timer_white_27" BEL "timer_white_28" BEL
+        "timer_white_29" BEL "timer_white_30" BEL "white2_min_0" BEL
+        "white2_min_3" BEL "white2_min_1" BEL "white2_min_2" BEL
+        "white2_min_4" BEL "white2_min_5" BEL "white2_min_8" BEL
+        "white2_min_6" BEL "white2_min_7" BEL "white2_min_11" BEL
+        "white2_min_9" BEL "white2_min_10" BEL "white2_min_14" BEL
+        "white2_min_12" BEL "white2_min_13" BEL "white2_min_15" BEL
+        "white2_min_16" BEL "white2_min_19" BEL "white2_min_17" BEL
+        "white2_min_18" BEL "white2_min_20" BEL "white2_min_21" BEL
+        "white2_min_24" BEL "white2_min_22" BEL "white2_min_23" BEL
+        "white2_min_25" BEL "white2_min_26" BEL "white2_min_29" BEL
+        "white2_min_27" BEL "white2_min_28" BEL "white2_min_30" BEL
+        "white2_min_31" BEL "timer_black_2" BEL "timer_black_0" BEL
+        "timer_black_1" BEL "timer_black_3" BEL "timer_black_4" BEL
+        "timer_black_7" BEL "timer_black_5" BEL "timer_black_6" BEL
+        "timer_black_10" BEL "timer_black_8" BEL "timer_black_9" BEL
+        "timer_black_13" BEL "timer_black_11" BEL "timer_black_12" BEL
+        "timer_black_14" BEL "timer_black_15" BEL "timer_black_18" BEL
+        "timer_black_16" BEL "timer_black_17" BEL "timer_black_21" BEL
+        "timer_black_19" BEL "timer_black_20" BEL "timer_black_24" BEL
+        "timer_black_22" BEL "timer_black_23" BEL "timer_black_25" BEL
+        "timer_black_26" BEL "timer_black_29" BEL "timer_black_27" BEL
+        "timer_black_28" BEL "timer_black_30" BEL "black1_sec_1" BEL
+        "black1_sec_0" BEL "black1_sec_2" BEL "black1_sec_3" BEL
+        "black1_sec_6" BEL "black1_sec_4" BEL "black1_sec_5" BEL
+        "black1_sec_9" BEL "black1_sec_7" BEL "black1_sec_8" BEL
+        "black1_sec_12" BEL "black1_sec_10" BEL "black1_sec_11" BEL
+        "black1_sec_13" BEL "black1_sec_14" BEL "black1_sec_17" BEL
+        "black1_sec_15" BEL "black1_sec_16" BEL "black1_sec_18" BEL
+        "black1_sec_19" BEL "black1_sec_22" BEL "black1_sec_20" BEL
+        "black1_sec_21" BEL "black1_sec_23" BEL "black1_sec_24" BEL
+        "black1_sec_27" BEL "black1_sec_25" BEL "black1_sec_26" BEL
+        "black1_sec_30" BEL "black1_sec_28" BEL "black1_sec_29" BEL
+        "black2_min_0" BEL "black1_sec_31" BEL "black2_min_1" BEL
+        "black2_min_2" BEL "black2_min_5" BEL "black2_min_3" BEL
+        "black2_min_4" BEL "black2_min_6" BEL "black2_min_7" BEL
+        "black2_min_10" BEL "black2_min_8" BEL "black2_min_9" BEL
+        "black2_min_11" BEL "black2_min_12" BEL "black2_min_15" BEL
+        "black2_min_13" BEL "black2_min_14" BEL "black2_min_18" BEL
+        "black2_min_16" BEL "black2_min_17" BEL "black2_min_21" BEL
+        "black2_min_19" BEL "black2_min_20" BEL "black2_min_22" BEL
+        "black2_min_23" BEL "black2_min_26" BEL "black2_min_24" BEL
+        "black2_min_25" BEL "black2_min_29" BEL "black2_min_27" BEL
+        "black2_min_28" BEL "black2_min_30" BEL "black2_min_31" BEL
+        "white1_sec_0" BEL "white1_sec_1" BEL "white1_sec_4" BEL
+        "white1_sec_2" BEL "white1_sec_3" BEL "white1_sec_7" BEL
+        "white1_sec_5" BEL "white1_sec_6" BEL "white1_sec_10" BEL
+        "white1_sec_8" BEL "white1_sec_9" BEL "white1_sec_11" BEL
+        "white1_sec_12" BEL "white1_sec_15" BEL "white1_sec_13" BEL
+        "white1_sec_14" BEL "white1_sec_16" BEL "white1_sec_17" BEL
+        "white1_sec_20" BEL "white1_sec_18" BEL "white1_sec_19" BEL
+        "white1_sec_21" BEL "white1_sec_22" BEL "white1_sec_25" BEL
+        "white1_sec_23" BEL "white1_sec_24" BEL "white1_sec_28" BEL
+        "white1_sec_26" BEL "white1_sec_27" BEL "white1_sec_31" BEL
+        "white1_sec_29" BEL "white1_sec_30" BEL "white2_sec_0" BEL
+        "white2_sec_3" BEL "white2_sec_1" BEL "white2_sec_2" BEL
+        "white2_sec_4" BEL "white2_sec_5" BEL "white2_sec_8" BEL
+        "white2_sec_6" BEL "white2_sec_7" BEL "white2_sec_9" BEL
+        "white2_sec_10" BEL "white2_sec_13" BEL "white2_sec_11" BEL
+        "white2_sec_12" BEL "white2_sec_16" BEL "white2_sec_14" BEL
+        "white2_sec_15" BEL "white2_sec_19" BEL "white2_sec_17" BEL
+        "white2_sec_18" BEL "white2_sec_20" BEL "white2_sec_21" BEL
+        "white2_sec_24" BEL "white2_sec_22" BEL "white2_sec_23" BEL
+        "white2_sec_25" BEL "white2_sec_26" BEL "white2_sec_29" BEL
+        "white2_sec_27" BEL "white2_sec_28" BEL "white2_sec_30" BEL
+        "white2_sec_31" BEL "timer_white_31" BEL "timer_black_31" BEL
+        "tx_state_FSM_FFd1" BEL "tx_state_FSM_FFd2" BEL "tx_state_FSM_FFd3"
+        BEL "tx_state_FSM_FFd4" BEL "tx_state_FSM_FFd7" BEL
+        "tx_state_FSM_FFd5" BEL "tx_state_FSM_FFd6" BEL "cur_state_FSM_FFd1"
+        BEL "cur_state_FSM_FFd2" BEL "cur_state_FSM_FFd17" BEL
+        "cur_state_FSM_FFd16" BEL "cur_state_FSM_FFd18" BEL
+        "cur_state_FSM_FFd21" BEL "init_state_FSM_FFd3" BEL
+        "init_state_FSM_FFd1" BEL "init_state_FSM_FFd2" BEL
+        "init_state_FSM_FFd6" BEL "init_state_FSM_FFd4" BEL
+        "init_state_FSM_FFd5" BEL "init_state_FSM_FFd9" BEL
+        "init_state_FSM_FFd7" BEL "init_state_FSM_FFd8" BEL
+        "init_state_FSM_FFd10" BEL "cur_state_FSM_FFd3" BEL
+        "cur_state_FSM_FFd6" BEL "cur_state_FSM_FFd4" BEL "cur_state_FSM_FFd5"
+        BEL "cur_state_FSM_FFd9" BEL "cur_state_FSM_FFd7" BEL
+        "cur_state_FSM_FFd8" BEL "cur_state_FSM_FFd10" BEL
+        "cur_state_FSM_FFd11" BEL "cur_state_FSM_FFd14" BEL
+        "cur_state_FSM_FFd12" BEL "cur_state_FSM_FFd13" BEL
+        "cur_state_FSM_FFd15" BEL "cur_state_FSM_FFd20" BEL
+        "cur_state_FSM_FFd19" BEL "cur_state_FSM_FFd22" BEL
+        "init_state_FSM_FFd11" BEL "clk_BUFGP/BUFG.GCLKMUX" BEL
+        "clk_BUFGP/BUFG";
+TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH 50%;
+SCHEMATIC END;
+

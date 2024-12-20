@@ -1,0 +1,2 @@
+AR main_timer behavioral /home/ise/FPGA/timer_catur/main_timer.vhd sub00/vhpl01 1700616393
+EN main_timer NULL /home/ise/FPGA/timer_catur/main_timer.vhd sub00/vhpl00 1700616392
